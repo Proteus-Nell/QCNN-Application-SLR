@@ -51,5 +51,7 @@
 | EC5 | Studies that are primarily theoretical or conceptual papers that do not involve the application of a model to a problem task.                      |
 | EC6 | Studies where the proposed QCNN/HQCNN model mentions aren’t the paper’s own contribution, mentioned from related works or are peripheral mentions. |
 | EC7 | Studies that use only standard reference datasets and do not demonstrate applicability to a domain-specific problem (e.g. MNIST, CIFAR, etc)       |
+| EC8 | Studies that are not accessible via the available institutional access provided by the host university.                                            |
 
 ## Definitions
+ w
