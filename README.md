@@ -40,7 +40,7 @@ This is a quick draft README to assist with setting everything up for finalizing
 
     [![image.png](https://i.postimg.cc/7hKjMgxN/image.png)](https://postimg.cc/jnJ8RnnW)
 
-    </details> <br>
+    </details>
 7. **File Import in Zotero**
     - Click on File > Import.. > A file (bibTeX, RIS, Zotero RDF, etc.) > Next, then select the .bib of the respective folder you're extracting.
 
@@ -49,7 +49,7 @@ This is a quick draft README to assist with setting everything up for finalizing
 
     [![image.png](https://i.postimg.cc/Y9TBJNcf/image.png)](https://postimg.cc/62VPZvpy)
 
-    </details> <br>
+    </details>
 8. **Repeating Step 7**
     - Repeat this step for all three folders and organize them as appropriate.
 9. **Verification of Import Status & File Count**
@@ -61,7 +61,7 @@ This is a quick draft README to assist with setting everything up for finalizing
 
     [![image.png](https://i.postimg.cc/wM540D9q/image.png)](https://postimg.cc/tnTzgZ1w)
 
-    </details> <br>
+    </details>
 
 10. **Stage 2 Steps :D**
     - Refer to the [*PICOC_RQs_ICsECs_ReviewScope.md*](https://github.com/Proteus-Nell/SLR/blob/main/Reproducible%20Section/Step%200%20-%20Search%20Queries/PICOC_RQs_ICsECs_ReviewScope.md) file or the [shared Excel file](https://numcmy-my.sharepoint.com/:x:/r/personal/efyms24_nottingham_edu_my/Documents/QCNN_HQCNN_Screening_Stage2_WIP.xlsx?d=w6bd9652349f34315b62e84bab11cb451&csf=1&web=1&e=ncYMWu) for the ICs, ECs & PICOC/RQs and from there you can start working on Stage 2 :D
