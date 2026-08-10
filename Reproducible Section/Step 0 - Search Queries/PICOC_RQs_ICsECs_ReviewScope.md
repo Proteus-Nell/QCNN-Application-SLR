@@ -3,7 +3,7 @@
 
 ## Review Scope
 
-- **Title:** Applications of Quantum and Hybrid Quantum Convolutional Neural Networks: A Systematic Review
+- **Title:** Exploring the Applications of Quantum Convolutional & Hybrid Quantum Convolutional Neural Networks
 - **Coverage & Time Period:** 2021-2026 w/ Scopus, arXiv, IEEE
 
 ### 
@@ -71,7 +71,7 @@
 | Word             | Definition                                              |
 | ---------------- | ------------------------------------------------------- |
 | QCNN             | A Quantum Convolutional Neural Network utilizes quantum convolutional and pooling layers in order to reduce the dimensionality of the Parameterized Quantum Circuit by either measuring, tracing out, or outright discarding some of the qubits used. |
-| HQCNN            | A Hybrid-Quantum Convolutional Neural Network is a mixture between a QCNN and a CNN by employing trainable, parameterized quantum convolutional layers after encoding the data into a quantum state and may possibly utilize either classical or quantum pooling layers in addition to classical deep learning backbones. |
+| HQCNN            | A Hybrid-Quantum Convolutional Neural Network is a mixture between a QCNN and a CNN by employing trainable, parameterized quantum convolutional layers after encoding the data into a quantum state and may possibly utilize either classical or quantum convolutional and pooling layers in addition to classical deep learning backbones. |
 | QuanvNN          | A Quanvolutional Neural Network employs a random, non-trainable quantum circuit primarily to encode classical data into quantum states and extract their respective features while relying only on classical pooling and dense layers for the iterative training process. |
 | RX, RY, RZ-Gates | Rotation-X,Y,Z Gates are quantum gates that rotate a qubits state around the X,Y, or Z-axis by a given angle with the purpose of encoding classical data into quantum states.                                   |
 | MCX Gate         | A Multi-Controlled-X Gate is a multi-qubit gate that resembles a CNOT gate with the addition of more control qubits, where the Pauli-X operation is triggered once all the control qubits are in a \|1⟩ state.  |
@@ -83,3 +83,11 @@
 | PQC/VQC          | A Parameterized/Variational Quantum Circuit is a quantum circuit that handles data encoding and measurement, it also includes, and consists of modifable, trainable parameters such as rotation angles (theta, θ) in RX, RY & RZ gates, where these trainable parameters undergo training via classical optimization methodologies to optimize the quantum model. |
 | Ansatz           | An Ansatz is the theoretical blueprint being a PQC, defining its design in relation to the arrangement of the quantum gates and is often used interchangeably with PQC and VQC. |
 | NISQ             | |
+
+Notes:
+
+- QCNNs need QCLs, QPLs & a PQC.
+- HQCNNs need train
+- Lack of standardized taxonomy between QCNNs, HQCNNs and Quanvolutional Neural Networks
+- Decision to enforce HQCNNs as requiring QCLs and enforcing the glossary as what we're working off of.
+- Typically, classical logic gates are irreversible. By contrast, quantum logic gates are reversible. Classical computing can only be performed using reversible gates. [Jeong et al. 
