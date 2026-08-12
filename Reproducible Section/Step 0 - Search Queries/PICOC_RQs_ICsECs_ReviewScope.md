@@ -56,7 +56,7 @@
 
 ## Acronyms & Glossary
 
-| Acronym         | Expanded Form                                           |
+| Acronym          | Expanded Form                                           |
 | ---------------- | ------------------------------------------------------- |
 | QCNN             | Quantum Convolutional Neural Network                    |
 | HQCNN            | Hybrid Quantum Convolutional Neural Network             |
