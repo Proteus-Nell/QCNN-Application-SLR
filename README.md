@@ -31,7 +31,7 @@ This is a quick draft README to assist with setting everything up for finalizing
     ```
 
 5. **File Movement [Needed for Zotero Imports]**
-    - Once you extract it, move the files folder to be in the same directory as its respective .bib file to match the format of **SLR2-Stage2-ExcludedPapers**.
+    - Once you extract it, move the files folder to be in the same directory as its respective .bib file to match the format of **SLR-Stage2-ExcludedPapers**.
 6. **Collection Creation in Zotero**
     - From there, open up Zotero and click on New Collection and create one named SLR-Stage2:
 

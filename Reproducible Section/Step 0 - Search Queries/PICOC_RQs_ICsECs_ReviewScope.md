@@ -56,7 +56,7 @@
 
 ## Acronyms & Glossary
 
-| Acrnonym         | Expanded Form                                           |
+| Acronym         | Expanded Form                                           |
 | ---------------- | ------------------------------------------------------- |
 | QCNN             | Quantum Convolutional Neural Network                    |
 | HQCNN            | Hybrid Quantum Convolutional Neural Network             |
@@ -78,11 +78,11 @@
 | CRY Gate         | A Controlled-RY Gate is a two-qubit RY gate with a conditional activation based on if the control qubit is in a \|1⟩ state, it is one of the other methods used to establish entanglement between qubits.       |
 | CNOT/CX Gates    | A Controlled-Not Gate is a two-qubit quantum gate that inverts a qubits' state IFF the control qubit is in the \|1⟩ state. It is used to achieve entanglement and is the equivalent of a reversible XOR gate.   |
 | CZ Gate          | A Controlled-Z Gate is a two-qubit gate that applies a phase flip (multiplication by -1) IFF the control qubit is in the \|1⟩ state.                                                                            |
-| Pauli-X Gate     | A Pauli-X Gate  lips the state of a qubit from \|0⟩ to \|1⟩ and from \|1⟩ to \|0⟩, representing the quantum variant of a NOT gate.                                                                               |
+| Pauli-X Gate     | A Pauli-X Gate flips the state of a qubit from \|0⟩ to \|1⟩ and from \|1⟩ to \|0⟩, representing the quantum variant of a NOT gate.                                                                               |
 | Hadamard Gate    | A Hadamard Gate is a single-qubit quantum gate that maps a state into an equal, uniform superposition, where the qubit exists in a \|0⟩ and \|1⟩ state in parallel, this is done to allow quantum circuits to explore multiple paths in parallel. |
-| PQC/VQC          | A Parameterized/Variational Quantum Circuit is a quantum circuit that handles data encoding and measurement, it also includes, and consists of modifable, trainable parameters such as rotation angles (theta, θ) in RX, RY & RZ gates, where these trainable parameters undergo training via classical optimization methodologies to optimize the quantum model. |
+| PQC/VQC          | A Parameterized/Variational Quantum Circuit is a quantum circuit that handles data encoding and measurements, it also includes, and consists of modifable, trainable parameters such as rotation angles (theta, θ) in RX, RY & RZ gates, where the trainable parameters undergo training via classical optimization methodologies to optimize the quantum model. |
 | Ansatz           | An Ansatz is the theoretical blueprint being a PQC, defining its design in relation to the arrangement of the quantum gates and is often used interchangeably with PQC and VQC. |
-| NISQ             | |
+| NISQ             | [WIP] |
 
 Notes:
 
@@ -90,4 +90,4 @@ Notes:
 - HQCNNs need train
 - Lack of standardized taxonomy between QCNNs, HQCNNs and Quanvolutional Neural Networks
 - Decision to enforce HQCNNs as requiring QCLs and enforcing the glossary as what we're working off of.
-- Typically, classical logic gates are irreversible. By contrast, quantum logic gates are reversible. Classical computing can only be performed using reversible gates. [Jeong et al. 
+- Typically, classical logic gates are irreversible. By contrast, quantum logic gates are reversible. Classical computing can only be performed using reversible gates. Jeong et al.
